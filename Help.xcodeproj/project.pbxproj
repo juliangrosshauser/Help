@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93B92881B336F74007C4EEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93B92871B336F74007C4EEC /* MapKit.framework */; };
 		B9D442E21B2E1A30006DB1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D442D61B2E1A30006DB1EA /* Assets.xcassets */; };
 		B9D442E31B2E1A30006DB1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D442D71B2E1A30006DB1EA /* LaunchScreen.storyboard */; };
 		B9D442E41B2E1A30006DB1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D442D91B2E1A30006DB1EA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B93B92871B336F74007C4EEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B9D442A31B2E1637006DB1EA /* Help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Help.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D442B71B2E1637006DB1EA /* HelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D442C21B2E1637006DB1EA /* HelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93B92881B336F74007C4EEC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				B9D442E81B2E1A79006DB1EA /* HelpTests */,
 				B9D442F01B2E1AAB006DB1EA /* HelpUITests */,
 				B9D442A41B2E1637006DB1EA /* Products */,
+				B9E821551B3374BF006B915E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +215,14 @@
 				B9D442F51B2E1AAB006DB1EA /* HelpUITests.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B9E821551B3374BF006B915E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B93B92871B336F74007C4EEC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
